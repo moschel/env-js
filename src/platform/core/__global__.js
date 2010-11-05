@@ -30,6 +30,10 @@ var Envjs = function(){
         override(arguments[1]);
         window.location = arguments[0];
     }
+	if (Envjs.dontPrintUserAgent !== true && Envjs.printedUserAgent !== true) {
+		Envjs.printedUserAgent = true;
+		console.log('[ %s ]', window.navigator.userAgent);
+	}
     return;
 },
 __this__ = this;
