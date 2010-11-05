@@ -11,6 +11,18 @@ $timers.lock = function(fn){
     Envjs.sync(fn)();
 };
 
+Envjs.clear = function(){
+    $timers.lock(function(){
+		for(var i=0; i<$timers.length; i++) {
+			if ( !$timers[i] ) {
+				continue;
+			}
+            $timers[i].stop();
+            delete $timers[i];
+        }
+    });
+}
+
 //private internal class
 var Timer = function(fn, interval){
     this.fn = fn;
