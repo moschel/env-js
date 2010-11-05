@@ -155,6 +155,9 @@ var __elementPopped__ = function(ns, name, node){
                                     doc.parsing = false;
                                     //DOMContentLoaded event
                                     try{
+										if ( Envjs.fireLoad === false ) {
+											return;
+										}
                                         if(doc.createEvent){
                                             event = doc.createEvent('Events');
                                             event.initEvent("DOMContentLoaded", false, false);
