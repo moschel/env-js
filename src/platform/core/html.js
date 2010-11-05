@@ -40,6 +40,9 @@ Envjs.loadInlineScript = function(script){
             'eval('+script.text.substring(0,16)+'...):'+new Date().getTime()
         );
     }
+	if ( Envjs.afterInlineScriptLoad ) {
+		Envjs.afterInlineScriptLoad(script)
+	}
     //console.log('evaluated at scope %s \n%s',
     //    script.ownerDocument.ownerWindow.guid, script.text);
 };
