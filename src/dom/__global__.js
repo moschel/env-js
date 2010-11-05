@@ -13,7 +13,7 @@
  * be able to correctly implement to core browser DOM interfaces."
  */
 
-var Attr,
+/*var Attr,
     CDATASection,
     CharacterData,
     Comment,
@@ -35,5 +35,5 @@ var Attr,
     Range,
     XMLSerializer,
     DOMParser;
-
+*/
 

@@ -2,7 +2,7 @@
 /**
  * DOM Style Level 2
  */
-var CSS2Properties,
+/*var CSS2Properties,
     CSSRule,
     CSSStyleRule,
     CSSImportRule,
@@ -13,4 +13,4 @@ var CSS2Properties,
     CSSStyleSheet,
     StyleSheet,
     StyleSheetList;
-;
+;*/

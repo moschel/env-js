@@ -2,5 +2,5 @@
 /**
  * @author envjs team
  */
-var Console,
-    console;
+/*var Console,
+    console;*/

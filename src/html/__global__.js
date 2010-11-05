@@ -6,7 +6,7 @@
  * This file simply provides the global definitions we need to
  * be able to correctly implement to core browser DOM HTML interfaces.
  */
-var HTMLDocument,
+/*var HTMLDocument,
     HTMLElement,
     HTMLCollection,
     HTMLAnchorElement,
@@ -64,3 +64,4 @@ var HTMLDocument,
     Option,
     __loadImage__,
     __loadLink__;
+*/

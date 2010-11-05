@@ -2,8 +2,8 @@
 /**
  * @todo: document
  */
-var Window,
+/*var Window,
     Screen,
     History,
     Navigator;
-
+*/

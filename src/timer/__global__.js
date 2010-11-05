@@ -10,10 +10,10 @@
  * 
  * requires Envjs.wait, Envjs.sleep, Envjs.WAIT_INTERVAL
  */
-var setTimeout,
+/*var setTimeout,
     clearTimeout,
     setInterval,
     clearInterval;
-
+*/
 
     

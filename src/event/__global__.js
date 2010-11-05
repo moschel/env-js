@@ -7,7 +7,7 @@
  * This file simply provides the global definitions we need to
  * be able to correctly implement to core browser DOM Event interfaces.
  */
-var Event,
+/*var Event,
     MouseEvent,
     UIEvent,
     KeyboardEvent,
@@ -17,4 +17,4 @@ var Event,
     EventException,
     //nonstandard but very useful for implementing mutation events
     //among other things like general profiling
-    Aspect;
+    Aspect;*/
